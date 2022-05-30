@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
   contentful: {
-    spaceId: "3tnsww349rne",
-    token: "pQJp5N9lbuF1imWz8ljW0xhw55DMm1BYwvc_j2V5kG0"
+    spaceId: "",
+    token: ""
   },
   teamAlphaServerapi :'http://localhost:4000/api/user'
 };
