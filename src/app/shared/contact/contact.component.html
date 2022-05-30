@@ -1,0 +1,116 @@
+<div style="margin-top: 2%; color: white; padding-bottom: 30px;">
+  <div class="conatiner">
+    <div class="row">
+      <div class="col-md-12 heading">
+        <h1 class="mobile-text-lg" style="font-weight: 200;">How Can We <span class="orange-text" style="font-weight: bold;"> help? </span></h1>
+        <hr width="30%" color="white" />
+        <p class="contact-us-text-heading">
+          Do you have question or are you interested in working with us? Just
+          fill out form below.
+        </p>
+      </div>
+    </div>
+    <form [formGroup]="contactForm" (ngSubmit)="sendQuery()">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <div class="form-group label">
+            <label for="subject">Subject</label>
+            <select class="form-control" id="subject" formControlName="subject"
+            [ngClass]="{ 'is-invalid': submitted && contactForms.subject.errors }">
+              <option hidden style="color: gray;">select the subject</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Advanced Marketing Program"
+                >Advanced Marketing Program</option
+              >
+              <option value="I Need Advice">I Need Advice</option>
+              <option value="Consulting Inquiry">Consulting Inquiry</option>
+              <option value="Speaking Request">Speaking Request</option>
+            </select>
+            <div *ngIf="submitted && contactForms.subject.errors" class="invalid-feedback">
+              <div *ngIf="contactForms.subject.errors.required">Subject is required</div>
+          </div>
+          </div>
+
+          <div class="form-group label" style="margin-bottom: 25px;">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="{{ namePlaceholder }}"
+              formControlName="name"
+              [ngClass]="{ 'is-invalid': submitted && contactForms.name.errors }"
+            />
+            <div *ngIf="submitted && contactForms.name.errors" class="invalid-feedback">
+              <div *ngIf="contactForms.name.errors.required" class="left"> Name is required</div>
+          </div>
+          </div>
+
+          <div class="form-group label" style="margin-bottom: 35px;">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="{{ emailPlaceholder }}"
+              formControlName ="email"
+              [ngClass]="{ 'is-invalid': submitted && contactForms.email.errors }"
+            />
+            <div *ngIf="submitted && contactForms.email.errors" class="invalid-feedback">
+              <div *ngIf="contactForms.email.errors.required" class="left">E-mail Name is required</div>
+              <div *ngIf="contactForms.email.errors.email" class="left">Email must be a valid email address</div>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <div class="form-group text-area label">
+            <label for="message">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="6"
+              placeholder="{{ messagePlaceholder }}"
+              formControlName="message"
+              [ngClass]="{ 'is-invalid': submitted && contactForms.message.errors }"
+            ></textarea>
+            <div *ngIf="submitted && contactForms.message.errors" class="invalid-feedback">
+              <div *ngIf="contactForms.message.errors.required" class="left">Message is required</div>
+          </div>
+          </div>
+          <div class="form-group send-query" >
+            <div class="form-group label ">
+              
+              <button type="submit" class="btn btns" style="font-weight: bold;">Send Query</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="quotes">
+  <div class="container">
+    <h2 class="mobile-text about-us-text">
+      We believe that
+      <span  style="font-weight: bold;" class="orange-text"><b>Satisfied Customer</b></span> is the best
+      <span style="font-weight: bold;" class="orange-text"><b>Business Strategy</b></span> of all.
+    </h2>
+
+    <h1 style="color: #abacae;" class="quote-icon"><i class="fa fa-quote-left"></i></h1>
+    <p class="mobile-text-lg about-us-quote">
+      <b>Your Brand is what people say about when you're not in the room.</b>
+    </p>
+    <h3 class="mobile-text-lg quote-writer-text">-JEFF BEZOS</h3>
+    <br />
+    <h2 class="mobile-text about-us-text">
+      Occupy the <span class="orange-text" style="font-weight: bold;"><b>Digital Space</b></span> before
+      others
+    </h2>
+  </div>
+</div>
+
+<app-footer></app-footer>

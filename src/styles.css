@@ -1,0 +1,179 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+body {
+  background: #26282c;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  
+  font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+}
+
+/* li.nav-item {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+} */
+/* .navbar-dark .navbar-nav .nav-link {
+    color: red;
+} */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff5e29;
+}
+/* .navbar-dark .navbar-toggler{
+    color: #FF5E29;
+    border-color:#FF5E29;
+} */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+/* 
+img {
+  vertical-align: middle;
+  border-style: none;
+  display: block;
+  margin: auto;
+} */
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
+
+.quote-text {
+  color: #abacae;
+  margin-bottom: -2%;
+}
+@media only screen and (max-width: 800px) {
+  .quote-text {
+    margin-bottom: -6%;
+  }
+
+}
+
+.left{
+  float: left;
+}
+.quotes-writer{
+  font-size: 1.8rem;
+}
+.quotes{
+  font-size: 1.6rem;
+}
+
+.mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: gray;
+}
+
+
+.content-fonts > p > img {
+  vertical-align: middle;
+  border-style: none;
+  display: block;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.004)!important;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important;
+    text-rendering: optimizelegibility!important;
+    max-width: 700px !important;
+}
+.content-fonts > p{
+font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.04688rem;
+    line-height: 2;
+}
+
+.content-fonts > h2{
+text-align: center;
+padding-bottom: 20px;
+padding-top: 20px;
+font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+}
+
+.content-fonts > h1{
+  text-align: center;
+  
+padding-bottom: 10px;
+padding-top: 10px;
+font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+  }
+  .content-fonts > h3{
+    text-align: center;
+    
+padding-bottom: 10px;
+padding-top: 10px;
+font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+    }
+
+    @media only screen and (max-width: 800px) {
+      .content-fonts > h3{
+      text-align: center;
+      font-weight: 600;
+      font-size: 2rem;
+      border: 0 none;
+      padding: 0;
+      margin-top: -4px;
+      margin-bottom: 2rem;
+      line-height: 1.4;
+      font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+    
+      }
+      .content-fonts > h2{
+        text-align: center;
+        font-weight: 600;
+       /*  font-size: 2rem;
+        */ border: 0 none;
+        padding: 0;
+        margin-top: -4px;
+        margin-bottom: 2rem;
+       /*  line-height: 1.4; */
+        font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+        font-weight: 200;
+    line-height: 1.25;
+    border-bottom: 1px solid #eee;
+   /*  padding-bottom: 15px; */
+    font-size: 35px;
+        
+        }
+        .content-fonts > h1{
+          text-align: center;
+          font-weight: 600;
+         /*  font-size: 2rem;
+          */ border: 0 none;
+          padding: 0;
+          margin-top: -4px;
+          margin-bottom: 2rem;
+         /*  line-height: 1.4; */
+          font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+          font-weight: 200;
+      line-height: 1.25;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+      font-size: 35px;
+            }
+          .content-fonts > p{
+            font-family: Gotham SSm A,Gotham SSm B,sans-serif;
+                font-weight: 400;
+             
+                line-height: 2;
+                margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.04688rem;
+            }
+    
+    }

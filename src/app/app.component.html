@@ -1,0 +1,68 @@
+<!--testing prerender-->
+<nav class="navbar navbar-expand-lg navbar-dark ">
+  <img
+    class="navbar-brand dd-none"
+    src="../assets/Team_Alpha_Watermark_new.png"
+    alt="Team Alpha"
+    height="25%"
+    width="10%"
+    
+  />
+
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto header-list">
+      
+     
+      <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link" (click)="navigate('home')"
+          >HOME <span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link" (click)="navigate('about')">ABOUT</a>
+      </li>
+      <li class="nav-item active" (click)="navigate('service')" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link">SERVICES</a>
+      </li>
+      <ul>
+        <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show" style="list-style-type: none;">
+      <img
+      style="cursor: pointer; "
+      class="navbar-brand dd-show nav-link"
+      href="#"
+      src="../assets/Team_Alpha_Watermark_new.png"
+      alt="Team Alpha"
+      height="25%"
+      width="10%"
+      (click)="navigate('home')"
+    />
+  </li>
+  </ul>
+      <li class="nav-item active" (click)="navigate('blogs')" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link">BLOG</a>
+      </li>
+      <li class="nav-item active" (click)="navigate('contact')" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link">CONTACT</a>
+      </li>
+      <!-- <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link" (click)="openSubscribeDialog()">SUBSCRIBE</a>
+      </li> -->
+
+      <li class="nav-item active"  data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a>FREE <span style="color: #FF5E29; font-weight: bold;">SEO AUDIT</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

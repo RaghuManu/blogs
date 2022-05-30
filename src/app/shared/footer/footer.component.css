@@ -1,0 +1,37 @@
+.opacity {
+  background: rgba(255, 255, 255, 10%);
+}
+.size-icons {
+  font-size: 2rem;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.space {
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.sub-follo-fonts {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+.team-alpha {
+  color: #abacae;
+  font-size: 3rem;
+  text-align: center;
+  margin: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  /*  .container > .row > .col-md-3 > .opacity > .row > .col-md-2{
+        background: red;
+        width: 50%;
+    }  */
+}

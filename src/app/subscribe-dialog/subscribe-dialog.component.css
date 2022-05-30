@@ -1,0 +1,77 @@
+
+.subscribe-title{
+  
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.btn-outline-warning{
+    color: #ff5e29;
+  border-color: #ff5e29;
+}
+.btn:hover {
+    background-color: #ff5e29;
+    /* box-shadow: 0px 15px 20px rgba(255, 94, 41, 0.4); */
+    color: #fff;
+    /* transform: translateY(-7px); */
+  }
+  .col-md-12 > .form-group > .invalid-feedback >
+  {
+    display: block;
+  }
+
+  .size-icons {
+    font-size: 1.5rem;
+    color: gray;
+   cursor: pointer;
+    
+  }
+
+  .mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+    background-color: gray;
+}
+
+
+.blogItems{
+  padding-left: 10px;
+}
+
+.blog-wrapper{
+  text-align: initial;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.btn{
+  
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.blog-options{
+
+  float: left;
+  padding-left: 16px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .blogItems{
+   padding: none;
+  }
+  .blog-wrapper{
+    text-align: initial;
+    padding-left: 60px;
+    padding-right: 7px;
+     }
+  
+  .btn{
+    padding: none;
+    }
+}

@@ -1,0 +1,22 @@
+<div *ngIf="blogDetail.fields" style="background: white;">
+  <div class="adjustment">
+    <mat-card>
+      
+        <h1 style="padding: 15px;">
+          <div
+            class="title"
+            [innerHTML]="blogDetail.fields.title | mdToHtml"
+          ></div></h1
+      >
+      <div
+        class="content-fonts"
+        [innerHTML]="blogDetail.fields.introduction | mdToHtml"
+      ></div>
+     <!--  <button (click)="goToBlogList()" class="btn btn-danger">
+        Back To Blog List
+      </button> -->
+    </mat-card>
+  </div>
+</div>
+
+<app-footer></app-footer>

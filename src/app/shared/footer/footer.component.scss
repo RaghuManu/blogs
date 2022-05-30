@@ -1,0 +1,85 @@
+@import './../sass/mixins';
+
+.footer-root{
+  background:#26282C; 
+  color:#FFFFFF; 
+  padding-top: 2%; 
+  border: 40px;
+  @include smdevice{
+    padding-top: 5%; 
+  }
+}
+.opacity1111 {
+  background: rgba(255, 255, 255, 10%);
+}
+.size-icons {
+  font-size: 2rem;
+  padding-left: 20px;
+  padding-top: 3px;
+  @include smdevice{
+    padding-left: 10px;
+  }
+}
+
+a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.auto-wide-font{
+  font-family: 'Audiowide', cursive;
+}
+.space {
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 1.5rem;
+  opacity: 0.7;
+  @include smdevice{
+    font-size: 14px;
+    padding:0
+  }
+}
+.sub-follo-fonts {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+.team-alpha {
+  color: #abacae;
+  font-size: 3rem;
+  text-align: center;
+  margin: 3%;
+  @include smdevice{
+    font-size: 2rem;
+  }
+}
+
+.social-item-wrapper{
+  display: flex;
+  align-items: center;
+  width: 22%;
+  height: 80px;
+  background-color: black;
+  opacity: 0.4;
+  cursor: pointer;
+  @include smdevice{
+    width: 49%;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+  }
+  .social-item-icon{
+    width: 25%;
+  }
+  .social-item-followers{
+    width: 75%;
+    @include smdevice{
+      width: 60%;
+    }
+  }
+}
+.social-container{
+  justify-content: space-evenly;
+}
+// .social-item-wrapper-bg-color{
+//   background: rgba(255, 255, 255, 10%);
+// }

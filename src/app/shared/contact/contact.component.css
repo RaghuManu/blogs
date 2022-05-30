@@ -1,0 +1,211 @@
+.orange-text {
+  color: #ff5e29;
+}
+.heading {
+  text-align: center;
+}
+p {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  hr {
+    width: 85%;
+  }
+}
+
+.btns {
+  color: #ff5e29;
+  border-color: #FF5E29;
+  background-color: #ff5e29;
+  color: #fff;
+  padding-right: 142px;
+  padding-left: 143px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+/*   border-radius: 1rem;
+ */
+
+}
+
+
+
+
+.form-group {
+  opacity: 1;
+}
+.form-control {
+  background: black;
+
+  border: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+  padding: 2% 10% 2% 10.5%;
+  background: #ff5e29;
+  color: white;
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.text-area {
+  margin-bottom: 4%;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+}
+
+option {
+  color: white !important;
+}
+
+.label {
+  padding: 0% 20% 0% 20%;
+}
+
+@media only screen and (max-width: 700px) {
+  a {
+    padding: 2% 10% 2% 10.5%;
+  }
+}
+
+.quotes {
+  color: black;
+  background: white;
+  text-align: center;
+}
+
+.quotes > .container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.contact-us-text-heading{
+  padding-right: 460px;
+  padding-left: 460px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-text{
+    font-size : 1rem;
+  }
+  
+.contact-us-text-heading{
+     font-size : 1rem;
+     padding-right: 0px;
+     padding-left: 0px;
+}
+}
+@media only screen and (max-width: 600px) {
+.mobile-text-sm{
+  font-size : 0.9rem;
+}
+.row{
+  margin: 0px;
+}
+.label{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-text-lg{
+    font-size : 1.3rem;
+  }
+  }
+
+
+
+ .quote-writer-text{
+  padding-left: 348px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+
+
+.about-us-text{
+  
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 2.5rem;
+  padding-bottom: 15px;
+}
+
+.about-us-quote{
+  
+  padding-left: 275px;
+  padding-right: 275px;
+  text-align: initial;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-us-text{
+    font-size : 1rem;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .about-us-quote{
+    font-size : 1rem;
+    text-align: center;
+    
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+  .fa{
+    font-size: 1rem;
+  }
+
+}
+
+
+.send-query{
+  margin-top: 0%;
+}
+
+
+
+
+@media only screen and (max-width: 1280px) {
+
+    .send-query{
+      margin-top: 0%;
+    }
+
+    .btns {
+      color: #ff5e29;
+      border-color: #FF5E29;
+      background-color: #ff5e29;
+      color: #fff;
+      padding-right: 110px;
+      padding-left: 110px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    /*   border-radius: 1rem;
+     */
+    
+  
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-img{
+      height: 300px;
+  }
+  .quote-writer-text{
+    padding-left: 183px;
+    padding-right: 0px;
+    font-size: 1rem;
+  }
+  .btns{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

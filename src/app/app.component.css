@@ -1,0 +1,64 @@
+/* .homePage-words-header-white{
+    color: white;
+}
+
+.homePage-words-section-white{
+    color: white;
+}
+.homePage-words-section-orange{
+    color: #FF5E29;
+}
+.homePage-words-header-orange{
+    color: #FF5E29;
+}
+
+h1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.homePage-words .homePage-words-header-white {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.homePage-button{
+    text-align: center;
+   
+  
+   
+    
+}
+
+div > .homePage-button > a{
+    text-decoration: none;
+    padding: 10px 40px 13px 40px;
+    margin: 0;
+    background: #FF5E29;
+    
+    color: white;
+
+    border-radius: 2rem;
+} 
+
+div > .homePage-button{
+    margin-top: 2%;
+    margin-bottom: 18%;
+}
+*/
+div > ul > li > a {
+  cursor: pointer;
+}
+.orange-text {
+  color: #ff5e29;
+}
+
+.orange-button {
+  text-decoration: none;
+  padding: 10px 40px 13px 40px;
+  margin: 0;
+  background: #ff5e29;
+
+  color: white;
+
+  border-radius: 2rem;
+}

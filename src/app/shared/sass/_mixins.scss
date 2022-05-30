@@ -1,0 +1,38 @@
+$smdevice-width: 767px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin smdevice {
+    @media(max-width: #{$smdevice-width}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+%disFlex {
+    @include desktop {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+    @include tablet {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+}

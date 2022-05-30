@@ -1,0 +1,121 @@
+/**home page styles start*/
+.homePage-words-header-white {
+  color: white;
+}
+
+.homePage-words-section-white {
+  color: white;
+}
+.homePage-words-section-orange {
+  color: #ff5e29;
+}
+.homePage-words-header-orange {
+  color: #ff5e29;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.homePage-words .homePage-words-header-white {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.homePage-button {
+  text-align: center;
+}
+
+div > .homePage-button > a {
+  text-decoration: none;
+  padding: 10px 40px 13px 40px;
+  margin: 0;
+  background: #ff5e29;
+  color: white;
+  border-radius: 2rem;
+}
+
+div > .homePage-button {
+  margin-top: 2%;
+  margin-bottom: 18%;
+}
+
+div > ul > li > a {
+  cursor: pointer;
+}
+
+/**home page styles ends*/
+
+/**blog page styles start*/
+
+.content .img-content {
+  margin: 10px;
+}
+.content .heading {
+  padding-top: 30px;
+}
+
+.content .heading > h2 {
+  color: #ff5e29;
+}
+.container > .row > .blog-image > img {
+  border-radius: 50%;
+}
+.description {
+  font-size: 1.3rem;
+  color: #26282c;
+}
+
+@media only screen and (max-width: 600px) {
+  .content:nth-child(even) {
+    background: #ff5e29;
+    flex-direction: column-reverse;
+  }
+}
+
+/**blog page styles ends*/
+
+/**service page section 1 styles ends*/
+
+.service-details {
+  /*  text-align: center;
+    margin-top: 2%; 
+    background: #26282c; 
+    color: white;
+    padding: 4%; */
+}
+.service-button {
+  margin-top: 5%;
+}
+
+div > .service-button > a {
+  text-decoration: none;
+  padding: 10px 40px 13px 40px;
+  margin: 0;
+  background: #ff5e29;
+
+  color: white;
+
+  border-radius: 2rem;
+}
+
+/**service page section 1 styles ends*/
+
+/**service page section 2 styles start*/
+
+.orange-text {
+  color: #ff5e29;
+}
+
+.orange-button {
+  text-decoration: none;
+  padding: 10px 40px 13px 40px;
+  margin: 0;
+  background: #ff5e29;
+
+  color: white;
+
+  border-radius: 2rem;
+}
+
+/**service page section 2 styles ends*/

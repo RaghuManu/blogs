@@ -1,0 +1,139 @@
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gray-text {
+  color: white;
+  font-weight: 100;
+}
+.orange-text {
+  color: #ff5e29;
+}
+.core-members-text{
+  font-size: 2rem;
+}
+div > .about-us-button > a {
+  text-decoration: none;
+  padding: 15px 40px 15px 40px;
+  margin: 0;
+  background: #ff5e29;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+div > .work-with-us-button  > a {
+  text-decoration: none;
+  padding: 15px 40px 15px 40px;
+  margin: 0;
+  background: #ff5e29;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.about-us-text {
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+.contents {
+  background: white;
+  color: #000;
+
+  padding: 3%;
+  font-size: 1.2rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.row > .col-md-4 > img {
+  border-radius: 0.5rem;
+}
+.col-md-8 > .paragraph {
+  padding: 3%;
+}
+.last-text{
+  text-align: center; 
+  padding: 2% 23% 2% 0%;
+}
+
+@media only screen and (max-width: 600px) {
+  .last-text{
+    font-size: 1.3rem;
+    padding: 2% 2% 2% 2%;
+  }
+  div > .about-us-button > a {
+    text-decoration: none;
+    padding: 15px 40px 15px 40px;
+    margin: 0;
+    background: #ff5e29;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .about-us-text{
+    margin-top: 25px;
+  }
+  .gray-text {
+    font-size: 35px;
+  }
+  .orange-text-mobile{
+    font-size: 30px;
+  }
+  .about-us-button{
+    text-align: center;
+    margin: 50px;
+  }
+  .work-with-us-button{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .sub-text-1{
+    font-size: 42px;
+  }
+  .sub-text-2{
+    font-size: 36px;
+  }
+  .sub-text-3{
+    font-size: 40px;
+  }
+
+}
+.team-alpha-text-wrapper{
+  font-size: 2rem; 
+  text-align: center;
+}
+.team-alpha-text-item{
+  font-size: 2.5rem;
+   font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  .mobile-text{
+    font-size : 1rem;
+  }
+  .team-alpha-text-wrapper{
+    font-size: 1.5rem;
+  }
+  .team-alpha-text-item{
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+.mobile-text-sm{
+  font-size : 0.9rem;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-text-lg{
+    font-size : 1.3rem;
+  }
+  }

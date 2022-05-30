@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://techteamalpha.com/</loc>
+		<lastmod>2020-08-28T16:12:20+03:00</lastmod>
+	</url>
+	<url>
+		<loc>https://techteamalpha.com/home</loc>
+		<lastmod>2020-08-28T16:12:20+03:00</lastmod>
+	</url>
+
+    <url>
+		<loc>https://techteamalpha.com/about</loc>
+		<lastmod>2020-08-28T16:12:20+03:00</lastmod>
+	</url>
+
+    <url>
+		<loc>https://techteamalpha.com/service</loc>
+		<lastmod>2020-08-28T16:12:20+03:00</lastmod>
+	</url>
+
+    <url>
+		<loc>https://techteamalpha.com/blogs</loc>
+		<lastmod>2020-08-28T16:12:20+03:00</lastmod>
+	</url>
+     <url>
+		<loc>https://techteamalpha.com/blogdetails/customer-journey</loc>
+		<lastmod>2020-08-28T16:12:20+03:00</lastmod>
+	</url>
+     <url>
+		<loc>https://techteamalpha.com/blogdetails/aida-model</loc>
+		<lastmod>2020-08-28T16:12:20+03:00</lastmod>
+	</url>
+     <url>
+		<loc>https://techteamalpha.com/contact</loc>
+		<lastmod>2020-08-28T16:12:20+03:00</lastmod>
+	</url>
+</urlset>

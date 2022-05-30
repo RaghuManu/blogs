@@ -1,0 +1,46 @@
+.adjustment {
+
+  padding-top: 0% ;
+  padding-right: 17%;
+  padding-left:17%;
+  padding-bottom: 5%;
+  background: #EBEBEB;
+}
+.content-fonts {
+  font-size: 1.4rem;
+}
+
+.title {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  padding-bottom: 20px;
+}
+
+mat-card {
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  position: relative;
+
+  border-radius: 4px;
+  background: #F8F8F8;
+}
+.content-fonts > p > img {
+  vertical-align: middle;
+  border-style: none;
+  display: block;
+ background: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-danger {
+  color: black;
+  background-color: #ff5e29;
+  border-color: #ff5e29;
+}
+@media only screen and (max-width: 800px) {
+  .adjustment {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,53 @@
+
+$smdevice-width: 767px;
+@mixin smdevice {
+    @media(max-width: #{$smdevice-width}) {
+        @content;
+    }
+}
+
+div > ul > li > a {
+  cursor: pointer;
+}
+.orange-text {
+  color: #ff5e29;
+}
+
+.orange-button {
+  text-decoration: none;
+  padding: 10px 40px 13px 40px;
+  margin: 0;
+  background: #ff5e29;
+
+  color: white;
+
+  border-radius: 2rem;
+}
+
+.dd-none{
+    display: none;
+    @include smdevice{
+        width: 60%;
+        margin-left: 0;
+        display: inline-block;
+    }
+}
+
+.dd-show{
+    display: inline-block;
+    margin: 0;
+    width: 275px;
+    @include smdevice{
+        display: none;
+    } 
+}
+
+.header-list{
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

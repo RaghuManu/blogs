@@ -1,0 +1,25 @@
+<div style="background: #fff;color: black;">
+  <div class="container"><!-- </div> style="display: flex;height: 300px;">
+  -->  <!--  <div style="display: flex; align-self: auto;"> -->
+    <div class="row" role="alert" >
+      <div  class="col-md-6 blog-list-container" (click)="goToBlogsDetailsPage(blog.fields.id)" *ngFor="let blog of blogs">
+       <mat-card>
+        <div class="blog-list-item">
+          <img src="{{ blog.fields.listMedia.fields.file.url }}" class=" blog-list-image-item"/>
+        </div>
+      
+        <div>
+         
+          <h5>
+            <div [innerHTML]="blog.fields.title | mdToHtml" class="blog-list-title"></div>
+          </h5>
+        
+        </div>
+      </mat-card>
+      </div>
+    </div>
+  </div>
+ <!--  </div> -->
+</div>
+
+<app-footer></app-footer>

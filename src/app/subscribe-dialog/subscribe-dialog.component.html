@@ -1,0 +1,74 @@
+
+<div>
+<div>
+  <i class="fa fa-times size-icons" style="float: right;" (click)="close()" aria-hidden="true"></i>
+  <br />
+</div>
+<!-- 
+<div class="subscribe-title">
+  Subscribe!
+  
+<hr style="border-top: 1px solid black;">
+</div> -->
+</div>
+<form [formGroup]="subScribeForm" (ngSubmit)="subscribe()" class="container" style="text-align: center;">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="name" style="float: left;">Name</label>
+        <input type="text" class="form-control" id="name" formControlName="name" [ngClass]="{
+            'is-invalid': submitted && subScribeForm.controls['name'].errors
+          }" />
+        <div *ngIf="submitted && subScribeForm.controls['name'].errors" class="invalid-feedback">
+          <div *ngIf="subScribeForm.controls['name'].errors.required" class="left">
+            Name is required
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="email" style="float: left;">E-mail</label>
+        <input type="email" class="form-control" id="email" formControlName="email" [ngClass]="{
+            'is-invalid': submitted && subScribeForm.controls['email'].errors
+          }" />
+        <div *ngIf="submitted && subScribeForm.controls['email'].errors" class="invalid-feedback">
+          <div *ngIf="subScribeForm.controls['email'].errors.required" class="left">
+            Email is required
+          </div>
+          <div *ngIf="subScribeForm.controls['email'].errors.email" class="left">
+            Email must be a valid email address
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="float: left;" class="blog-options">Select the Technologies :</div><br>
+    <div class="col-md-12 blog-wrapper"  style="text-align: initial;">
+      
+      <div class="form-group" >
+
+        
+        
+          <div *ngFor="let blogControl of blogsArray.controls; let i = index;">
+            <div>
+          <mat-checkbox  name="" id="inlineCheckbox{{i}}" [formControl]="blogControl"
+          (change)="getSelectedBlogValues()"
+            ></mat-checkbox>
+            <label for="inlineCheckbox{{i}}" class="blogItems">{{blogs[i]}}</label>
+          </div>
+      </div>
+         
+<div *ngIf="blogError" 
+      class="invalid-feedback" style="display: block;">
+
+      Please select the Blogs
+    
+</div> 
+    </div>
+    </div>
+    <div class="col-md-12">
+      <button class="btn btn-outline-warning" type="submit">Subscribe</button>
+    </div>
+  </div>
+</form>
